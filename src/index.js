@@ -1,15 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
+import App from './components/app';
 
-const el = (
-  <div className="">
-    <h1>My Todo list</h1>
-    <input placeholder="search"/>
-    <ul>
-      <li>Learn React</li>
-      <li>Build awesome app</li>
-    </ul>
-  </div>
-);
-
-ReactDOM.render(el, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById("root"));
