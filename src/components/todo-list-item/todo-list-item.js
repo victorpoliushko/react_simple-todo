@@ -24,6 +24,7 @@ export default class TodoListItem extends Component {
     if (important) {
       classNames += " important";
     }
+    console.log(classNames);
 
     return (
       <span className={classNames}>

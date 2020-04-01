@@ -74,7 +74,7 @@ export default class App extends Component {
     });
   };
 
-  onSearchChange = term => {
+  onSearchChange = term => {  
     this.setState({ term });
   };
 
