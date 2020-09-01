@@ -1,1 +1,1 @@
-Fresh react app
+Simpliest React app
